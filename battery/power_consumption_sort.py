@@ -350,7 +350,7 @@ def main():
         #getinfoPrimaryDirectory("MI_3C", dischargingTimeLowLimit, dischargingTimeHighLimit, outputFileName)
         getinfoPrimaryDirectory(directoryStr, dischargingTimeLowLimit, dischargingTimeHighLimit, outputFileName)
     elif directoryLevel == 2:
-        outputFileName = "%s/%s_%s_%s_statistics.txt" % (directoryStr, directoryStr.split('/')[-2], directoryStr.split('/')[-1], outputFileName)
+        outputFileName = "%s/%s_%s_%s_statistics.txt" % (directoryStr.split('/')[-2], directoryStr.split('/')[-2], directoryStr.split('/')[-1], outputFileName)
         getinfoSecondaryDirectory(directoryStr, dischargingTimeLowLimit, dischargingTimeHighLimit, outputFileName)
 
 
